@@ -1,8 +1,11 @@
 #TellStick
-The library is used to controlling the Telldus-Core C library through Ruby.  
+This is a Ruby wrapper for the Telldus Core C library, used to control a TellStick device.  
 
 ##Installing the GEM
+Before using the GEM, make sure you have the Telldus Core C Library installed.  
+
 `rake install`
+
 
 ##Example Usage
 
