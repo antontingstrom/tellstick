@@ -1,6 +1,9 @@
 #TellStick
 The library is used to controlling the Telldus-Core C library through Ruby.  
 
+##Installing the GEM
+`rake install`
+
 ##Example Usage
 
 	require 'tellstick'
