@@ -12,7 +12,7 @@ module TellStick
   def self.devices
     devices = []
     number_of_devices.times do |i|
-      devices << Device.new(device_id_for_index(i))
+      devices << TellStick::Device.new(device_id_for_index(i))
     end
     devices
   end 
